@@ -1,0 +1,3 @@
+const OPEN_ALERT: string = 'ROOT/OPEN_ALERT';
+const SET_DEVICE_KEY: string = 'ROOT/SET_DEVICE_KEY';
+export { OPEN_ALERT, SET_DEVICE_KEY };
