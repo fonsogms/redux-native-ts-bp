@@ -10,12 +10,11 @@ const StackNavigator = createSwitchNavigator(
   {
     // Create the application routes here (the key is the route name, the value is the target screen)
     // See https://reactnavigation.org/docs/en/stack-navigator.html#routeconfigs
-    RootScreen,
     ExampleScreen,
   },
   {
     // By default the application will show the splash screen
-    initialRouteName: 'rootScreen',
+    initialRouteName: 'ExampleScreen',
     // See https://reactnavigation.org/docs/en/stack-navigator.html#stacknavigatorconfig
 
     defaultNavigationOptions: {
